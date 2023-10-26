@@ -1,0 +1,32 @@
+
+<!-- in templates/template.html -->
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+	<!-- Bootstrap CSS -->
+        {{ bootstrap.load_css() }}
+
+        <title>Your page title</title>
+    </head>
+    <body>
+        <!-- Your page content -->
+	<div class="container">
+            <h1>This is a test!</h1>
+            <p>A test of the templating system!</p>
+	
+      </div>
+      <div class="text-center">
+
+          <img src="https://cdn.pixabay.com/photo/2013/07/12/17/47/test-pattern-152459_1280.png" class="rounded w-50">
+
+      </div>
+
+      <!-- Optional JavaScript -->
+      {{ bootstrap.load_js() }}
+    
+    </body>
+</html>
